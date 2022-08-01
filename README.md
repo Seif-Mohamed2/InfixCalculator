@@ -10,9 +10,17 @@ Node.java: Node object used in both queue and stack<br>
 Linkedlist.java: simple linkedlist implementation<br>
 myQueue: simple queue implementation <br>
 myStack: simple stack implementation <br>
-<strong>InfixCalculator </strong>: contain main algorithm and funcions <br>
-<h2>Simple explaination </h2>
+<strong>InfixCalculator </strong>: contain main algorithm and functions <br>
+<h2>Simple explanation </h2>
 
 The program uses stacks and queues to verify which operators are going to be performed first. The algorithm is divided into two stages: <br>
 <strong>1- arranging the input into queue using the precedence of operands<br>
   2- evaluating the generated queue.</strong>
+  <br><br>
+ Arranging the input into the queue is done using a stack of  operators. When an operator is found in the input it’s either directly added to the stack or we first remove all elements on top of the stack with higher precedence to this operator and add them to the queue. <i><strong>This operation takes place in the main function</i></strong>
+
+<br><br>
+
+Evaluating the queue takes place in postEval function defined in infixcalculator. The function takes the operator in the queue and its operand/s then evaluates it and adds it to the final result. <br>
+
+
