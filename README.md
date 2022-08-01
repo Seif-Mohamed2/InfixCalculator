@@ -30,18 +30,18 @@ Supported functions: sin(), cos(), tan() <br>
 In the folder there is “sources.txt” file this file has all java files you need to run.
 In command line or terminal window, run:
 
-‘’’powershell
+```powershell
 Javac @sources.txt
-‘’’
+```
 That compiles all files in the project.
 Then run
-‘’’powershell
+```powershell
 Java InfixCalculator [testfile] [outputfile]
-‘’’
+```
 For example: 
-‘’’powershell
+```powershell
 Java InfixCalculator testcases.txt output.txt
-‘’’
+```
 <h2>Detailed explanation</h2>
 
 
