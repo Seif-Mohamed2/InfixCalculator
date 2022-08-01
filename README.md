@@ -22,4 +22,8 @@ The program uses stacks and queues to verify which operators are going to be per
 <br>
 Evaluating the queue takes place in postEval function defined in infixcalculator. The function takes the operator in the queue and its operand/s then evaluates it and adds it to the final result. <br>
 
+<h2>Supported operators</h2>
+Supported operators by the program: + - * / % ^ &| > < ! == != <= >= <br>
+Supported functions: sin(), cos(), tan() <br>
 
+<h2>Detailed explanation</h2>
