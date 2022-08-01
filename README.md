@@ -19,8 +19,7 @@ The program uses stacks and queues to verify which operators are going to be per
   <br><br>
  Arranging the input into the queue is done using a stack of  operators. When an operator is found in the input it’s either directly added to the stack or we first remove all elements on top of the stack with higher precedence to this operator and add them to the queue. <i><strong>This operation takes place in the main function</i></strong>
 
-<br><br>
-
+<br>
 Evaluating the queue takes place in postEval function defined in infixcalculator. The function takes the operator in the queue and its operand/s then evaluates it and adds it to the final result. <br>
 
 
