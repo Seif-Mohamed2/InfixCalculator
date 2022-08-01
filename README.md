@@ -26,6 +26,31 @@ Evaluating the queue takes place in postEval function defined in infixcalculator
 Supported operators by the program: + - * / % ^ &| > < ! == != <= >= <br>
 Supported functions: sin(), cos(), tan() <br>
 
+<h2>Output example</h2>
+Input file: <br>
+1 + 2 ^ 2 - 3 * 8 <br>
+3 * 10 + 2 ^ 3 <br>
+3 * ( 1 + 2 ) <br>
+cos ( 0 ) <br>
+tan ( 1 ) <br>
+2 + + 1 <br>
+1 > 0 <br>
+1 | 0 <br> 
+1 & 0 <br>
+
+Output file: <br>
+-19.00 <br>
+38.00 <br>
+9.00 <br>
+1.00 <br>
+1.55 <br>
+This is invalid expression <br>
+1.00 <br> 
+1.00 <br>
+0.00 <br>
+
+
+
 <h2>How to run </h2>
 In the folder there is “sources.txt” file this file has all java files you need to run.
 In command line or terminal window, run:
@@ -42,6 +67,8 @@ For example:
 ```powershell
 Java InfixCalculator testcases.txt output.txt
 ```
+Then you find the output in the output text file.
+
 <h2>Detailed explanation</h2>
 
 
