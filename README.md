@@ -96,11 +96,11 @@ The program starts to check character by character in the line
 if the character is spaced just ignore it. if it's a number (checked using isnumeric method defined in the class) the program check the next character to check if it is a number of a . until
 the number ends and then store that number in the queue
 if the char is s or c or t the program check for the next to char to determine whether the tokin is sin, cos or tan if yes the program add
-them to the stack(Extra credit for sin, cos and tan)
+them to the stack
 
 After that you will see that the program checks if the char is any of the operators if yes then it performs the algorithm by poping from the stack the higher or equal
 precedence for all operators except for ^ as it only pop elements of higher precedence not equal precedence because
-it is right to left evaluated ( ^ % are included (extra credit))
+it is right to left evaluated (
 
 Finally after perfomring each step of the shunting yard algorithm, any other elements left in the stack are poped to the queue. 
 
