@@ -60,7 +60,7 @@ if you are on mac or linux
 find "${dir:-.}" -name "*.java" > sources.txt
 Javac @sources.txt
 ```
-<br><br>
+<br>
 if you are on windows: <br>
 ```powershell
 dir /s /B *.java > sources.txt
