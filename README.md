@@ -52,7 +52,6 @@ This is invalid expression <br>
 
 
 <h2>How to run </h2>
-In the folder there is “sources.txt” file this file has all java files you need to run.
 In command line or terminal window, run:<br>
 
 if you are on mac or linux 
